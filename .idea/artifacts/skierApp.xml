@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="skierApp">
+    <output-path>$PROJECT_DIR$/out/artifacts/skierApp</output-path>
+    <root id="archive" name="skierApp.war">
+      <element id="javaee-facet-resources" facet="cs6650/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cs6650" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.10.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
